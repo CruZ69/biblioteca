@@ -1,0 +1,16 @@
+USE biblioteca;
+
+CREATE TABLE libros (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nombre VARCHAR(255),
+  genero VARCHAR(255),
+  autor VARCHAR(255),
+  anio_salida INT
+);
+
+INSERT INTO libros (nombre, genero, autor, anio_salida) VALUES
+  ('Cien años de soledad', 'Realismo mágico', 'Gabriel García Márquez', 1967),
+  ('El gran Gatsby', 'Ficción', 'F. Scott Fitzgerald', 1925),
+  ('1984', 'Ciencia ficción', 'George Orwell', 1949);
+  
+SELECT * FROM libros;
