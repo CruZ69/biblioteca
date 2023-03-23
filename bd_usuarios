@@ -14,17 +14,5 @@ CREATE TABLE usuarios (
   ('María García', 23456, 'Calle 2 #456'),
   ('Pedro López', 34567, 'Calle 3 #789');
   
-  
-CREATE TABLE autores (
-  id INT PRIMARY KEY AUTO_INCREMENT,autores
-  nombre VARCHAR(255),
-  nacionalidad VARCHAR(255),
-  fecha_nacimiento DATE
-);
 
-INSERT INTO autores (nombre, nacionalidad, fecha_nacimiento) VALUES
-  ('Gabriel García Márquez', 'Colombiano', '1927-03-06'),
-  ('Jorge Luis Borges', 'Argentino', '1899-08-24'),
-  ('Mario Vargas Llosa', 'Peruano', '1936-03-28');
-
-  SELECT * FROM usuarios;autoreslibros
+  SELECT * FROM usuarios;
